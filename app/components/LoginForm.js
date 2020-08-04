@@ -24,7 +24,7 @@ class LoginForm extends Component {
                     returnKeyType="go" 
                     ref={(input)=> this.passwordInput = input} 
                     placeholder='Password' 
-                    placeholderTextColor='rgba(225,225,225,0.7)' 
+                    placeholderTextColor='rgba(225,225,225,0.7)'
                     secureTextEntry
                 />
                 <TouchableOpacity 
