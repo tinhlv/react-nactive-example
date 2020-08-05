@@ -3,10 +3,10 @@ import {
   Image, 
   ImageBackground, 
   View, 
-  KeyboardAvoidingView
+  KeyboardAvoidingView,
 } from 'react-native';
 import LoginForm from './LoginForm.js';
-import AppStyle from '../theme';
+import AppStyle from '../untils/theme';
 
 const backgroundImage = require("../assets/images/bg_login.png");
 const logoImage = require("../assets/images/logo.png");
